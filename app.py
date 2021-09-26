@@ -58,6 +58,7 @@ for sensor in W1ThermSensor.get_available_sensors():
         )
     gauges[sensor.id].labels(id=sensor.id).set_function(valuefunc)
 
+
 if ARGS.pushgateway or os.environ.get("PROM_GATEWAY", False):
     gateway = ARGS.pushgateway if ARGS.pushgateway else os.environ.get("PROM_GATEWAY")
     if not ARGS.noop:
