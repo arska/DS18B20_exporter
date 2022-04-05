@@ -8,7 +8,7 @@ click==8.1.2
     # via w1thermsensor
 importlib-metadata==4.11.3
     # via click
-prometheus-client==0.13.1
+prometheus-client==0.14.0
     # via -r requirements.in
 python-dotenv==0.20.0
     # via -r requirements.in
