@@ -10,7 +10,7 @@ importlib-metadata==4.13.0
     # via click
 prometheus-client==0.15.0
     # via -r requirements.in
-python-dotenv==0.21.0
+python-dotenv==0.21.1
     # via -r requirements.in
 typing-extensions==3.10.0.2
     # via importlib-metadata
