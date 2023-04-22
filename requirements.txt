@@ -6,7 +6,7 @@
 #
 click==8.1.3
     # via w1thermsensor
-importlib-metadata==6.5.1
+importlib-metadata==6.6.0
     # via click
 prometheus-client==0.16.0
     # via -r requirements.in
