@@ -16,5 +16,5 @@ typing-extensions==4.7.1
     # via importlib-metadata
 w1thermsensor==2.0.0
     # via -r requirements.in
-zipp==3.16.1
+zipp==3.16.2
     # via importlib-metadata
